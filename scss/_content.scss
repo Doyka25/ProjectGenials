@@ -1,0 +1,65 @@
+
+h1{
+	text-align: $text-align;
+	color: $bg-blue;
+	font-family: $fontMain;
+	font-weight: $fontBold;
+}
+h2{
+	text-align: $text-align;
+	color: $bg-blue;
+	font-family: $fontMain;
+	font-weight: $fontBold;
+	
+}
+h3{
+	text-align: $text-align;
+	color: $bg-pink;
+	font-family: $fontMain;
+	font-weight: $fontRegular;
+	font-size: $textMedium;
+}
+h4{
+	color: $bg-blue;
+	font-family: $fontMain;
+	font-weight: $fontRegular;
+	font-size: $textSmall;
+}
+h5{
+	color: $bg-dark;
+	font-family: $fontMain;
+	font-weight: $fontRegular;
+	font-size: $textMini;
+}
+p{
+	color: $bg-dark;
+	font-family: $fontMain;
+	font-weight: $fontRegular;
+}
+
+.cards__1{
+	color: $bg-white;
+	font-size: $textMini;
+	h3{
+		margin-bottom: $margin-bottom;
+	}
+	
+	img{
+		width:$w-80;
+		text-align: $text-align;
+	}
+	
+}
+
+footer{
+	display: $display;
+	justify-content: $justify-content;
+	flex-wrap: $flex-wrap;
+	text-align: $text-align;
+	font-size: $textMini;
+	align-items: $align-items;
+	list-style-position: $list-style-position;
+	text-transform: $text-transform;
+	text-decoration: $text-decoration;
+
+}
