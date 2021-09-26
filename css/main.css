@@ -43,6 +43,12 @@ h5 {
   font-weight: 400;
   font-size: 1em; }
 
+h6 {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em; }
+
 p {
   color: #000000;
   font-family: "Roboto", sans-serif;
@@ -57,13 +63,15 @@ p {
     width: 80%;
     text-align: center; }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  text-align: center;
+footer h6 {
+  color: #1F396B;
   font-size: 1em;
-  align-items: center;
-  list-style-position: outside;
   text-transform: uppercase;
   text-decoration: none; }
+
+.end {
+  background-color: #ebedea; }
+  .end p {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; }

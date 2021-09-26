@@ -31,6 +31,12 @@ h5{
 	font-weight: $fontRegular;
 	font-size: $textMini;
 }
+h6{
+	color: $bg-dark;
+	font-family: $fontMain;
+	font-weight: $fontLight;
+	font-size: $textMini;
+}
 p{
 	color: $bg-dark;
 	font-family: $fontMain;
@@ -51,15 +57,18 @@ p{
 	
 }
 
-footer{
-	display: $display;
-	justify-content: $justify-content;
-	flex-wrap: $flex-wrap;
-	text-align: $text-align;
+footer h6{
+	color: $bg-blue;
 	font-size: $textMini;
-	align-items: $align-items;
-	list-style-position: $list-style-position;
 	text-transform: $text-transform;
 	text-decoration: $text-decoration;
 
+}
+.end{
+	background-color: $gris;
+	p{
+	color: $bg-dark;
+	font-family: $fontMain;
+	font-weight: $fontRegular;
+}
 }

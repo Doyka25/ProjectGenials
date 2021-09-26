@@ -14,5 +14,13 @@
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doyka25/ProjectGenials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Doyka25/ProjectGenials/issues"
+  },
+  "homepage": "https://github.com/Doyka25/ProjectGenials#readme"
 }
